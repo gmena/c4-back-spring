@@ -1,0 +1,6 @@
+Return 404 (Not Found) if game not found
+Return 409 (Conflict) if piece can not be placed
+Return 409 (Conflict) if player is not expected
+Return 302 (Found) when creating new game, include Location header
+Endpoint to list ongoing games
+Use a database to persist ongoing games
