@@ -1,6 +1,8 @@
-# Back-end for Connect Four clone game using Spring
+# Back-end for Connect Four clone game using Spring / Java
 
 Two players can start a game and play it using REST calls. No authentication is performed.
+
+## Usage
 
 Start the server.
 
@@ -34,3 +36,8 @@ $ curl http://localhost:8080/connectfour/1 && echo
 ```json
 {"id":1,"nextPlayer":2,"winner":0,"board":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[1,0,0,0,0,0,0]]}
 ```
+
+### Requirements
+
+- Java 17
+- Spring Boot 3.1.2
