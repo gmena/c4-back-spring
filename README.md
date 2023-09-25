@@ -13,7 +13,7 @@ $ mvn spring-boot:run
 Make HTTP requests to start a game.
 
 ```bash
-$ curl http://localhost:8080/connectfour/new && echo
+$ curl http://localhost:8080/connectfour -X POST && echo
 ```
 ```json
 {"id":1,"nextPlayer":1,"winner":0,"board":[[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,0,0]]}

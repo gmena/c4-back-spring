@@ -20,7 +20,7 @@ public class ConnectFourController {
     private final AtomicLong counter = new AtomicLong();
     private final ConcurrentMap<Long, GameState> ongoingGames = new ConcurrentHashMap<>();
 
-    @GetMapping("/connectfour/new")
+    @PostMapping("/connectfour")
     public GameState createGame() {
         long id = counter.incrementAndGet();
         int nextPlayer = 1;
