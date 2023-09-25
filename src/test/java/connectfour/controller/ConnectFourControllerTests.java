@@ -1,5 +1,6 @@
-package connectfour;
+package connectfour.controller;
 
+import connectfour.controller.ConnectFourController;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
