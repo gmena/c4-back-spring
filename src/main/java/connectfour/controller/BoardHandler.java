@@ -1,15 +1,5 @@
 package connectfour.controller;
 
-import connectfour.model.GameState;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.atomic.AtomicLong;
-
-@RestController
 public class BoardHandler {
 
     public static int[][] createBoard(int rowCount, int colCount) {
